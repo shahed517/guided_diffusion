@@ -44,7 +44,6 @@ def generate_unconditional_samples(model_path="/home/shahed/guided_diffusion/wei
     plt.show()
 
 
-
 def generate_conditional_samples(
     model_path="/home/shahed/guided_diffusion/weights/mnist_model.pth",
     classifier_path="/home/shahed/guided_diffusion/weights/mnist_classifier.pth",
@@ -128,5 +127,5 @@ def generate_conditional_samples(
 if __name__ == "__main__":
     model_path = "/home/shahed/guided_diffusion/weights/mnist_model_60.pth"
     classifier_path = "/home/shahed/guided_diffusion/weights/mnist_classifier.pth"
-    generate_conditional_samples(model_path=model_path, classifier_path=classifier_path, target_class=3, guidance_scale=5)
-    # generate_unconditional_samples(model_path=model_path)
+    # generate_conditional_samples(model_path=model_path, classifier_path=classifier_path, target_class=8, guidance_scale=5)
+    generate_unconditional_samples(model_path=model_path)
