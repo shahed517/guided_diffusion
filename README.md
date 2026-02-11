@@ -7,6 +7,6 @@ Next a digit classifer was trained to classify digits after random noise injecti
 
 ![generated unconditional samples](https://github.com/shahed517/guided_diffusion/blob/main/samples/generated_cond_samples.png)
 
-References:
+**References:**
 1. Song, Y., Sohl-Dickstein, J., Kingma, D. P., Kumar, A., Ermon, S., & Poole, B. (2021). Score-based generative modeling through stochastic differential equations. In International Conference on Learning Representations (ICLR). 
 
