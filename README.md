@@ -3,7 +3,7 @@ The first objective was to generate handwritten digits unconditionally, which wa
 
 ![generated unconditional samples](https://github.com/shahed517/guided_diffusion/blob/main/samples/generated_uncond_samples.png)
 
-Next a digit classifer was trained to classify digits after random noise injection, similar to the forward diffusion process. For a specific class (e.g. digit 3) the gradient was calculated using pytorch and this was added to the estimated score with some weighting. This resulting in the following conditional samples:
+Next a digit classifer was trained to classify digits after random noise injection, similar to the forward diffusion process. For a specific class (e.g. digit 8) the gradient was calculated using pytorch and this was added to the estimated score with some weighting. This resulting in the following conditional samples:
 
 ![generated unconditional samples](https://github.com/shahed517/guided_diffusion/blob/main/samples/generated_cond_samples.png)
 
